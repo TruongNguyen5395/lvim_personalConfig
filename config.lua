@@ -75,17 +75,6 @@ lvim.plugins = {
       event = "InsertEnter"
     },
     {
-      "hoob3rt/lualine.nvim",
-      requires = {'kyazdani42/nvim-web-devicons', opt = true},
-      config = function()
-        require('lualine').setup{
-          options = {
-            theme = "tokyonight"
-          }
-        }
-      end,
-    },
-    {
       "Pocco81/AutoSave.nvim",
       config = function()
         require("autosave").setup()
@@ -100,7 +89,4 @@ lvim.plugins = {
 
 -- Configuration for tokyonight theme
 vim.g.tokyonight_style = 'night'
-
-
--- Configuration for Lualine
 
